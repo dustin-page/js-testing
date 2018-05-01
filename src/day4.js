@@ -4,12 +4,11 @@ function timeout(callback) {
 
 function dateDescriber(otherDate) {
     const dateNow = new Date();
-
     //console.log(dateNow.getTime()); //Get the Epoch time
 
     const otherYear = otherDate.getFullYear();
     const currentYear = dateNow.getFullYear();
-
+    
     const yearDifference = otherYear - currentYear;
 
     if (yearDifference > 0) {
@@ -19,9 +18,6 @@ function dateDescriber(otherDate) {
     } else {
         return 'current year';
     }
-
-
-
 }
 
 export {

@@ -1,6 +1,4 @@
-import sinon from 'sinon';
-import { expect } from 'chai';
-import { timeout, dateDescriber } from '../src/day4'; //ES6 module import syntax
+import { timeout, dateDescriber } from '../../src/day4'; //ES6 module import syntax
 
 /* Time travelling with sinon (test double library) fake timers */
 

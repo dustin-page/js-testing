@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "precommit": "npm test",
+    "prepush": "",
     "test": "mocha",
     "test:watch": "mocha --watch"
   },
@@ -17,6 +19,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
+    "husky": "^0.14.3",
     "mocha": "^5.1.1",
     "sinon": "^5.0.2"
   },

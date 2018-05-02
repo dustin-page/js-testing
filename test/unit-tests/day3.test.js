@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import day3 from '../../src/day3';
+import day3 from '../../src/day3'; 
 
 /* Asynchronous Testing */
 

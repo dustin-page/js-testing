@@ -8,7 +8,7 @@
   },
   "scripts": {
     "precommit": "npm test",
-    "prepush": "",
+    "prepush": "npm test",
     "test": "mocha",
     "test:watch": "mocha --watch"
   },
